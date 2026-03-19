@@ -9,11 +9,17 @@
 
 ---
 
-## 📸 Dashboard Preview
+## 📸 Project Previews
 
+### 🌐 Landing Page
 <p align="center">
-  <img src="screenshots/facility_dashboard.jpg" width="45%" alt="Facility Dashboard" />
-  <img src="screenshots/professional_dashboard.jpg" width="45%" alt="Professional Dashboard" />
+  <img src="screenshots/landing_page.jpg" width="100%" alt="Landing Page" />
+</p>
+
+### 🏥 Dashboard Portals
+<p align="center">
+  <img src="screenshots/facility_dashboard.jpg" width="48%" alt="Facility Dashboard" />
+  <img src="screenshots/professional_dashboard.jpg" width="48%" alt="Professional Dashboard" />
 </p>
 
 ---
