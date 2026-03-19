@@ -1,0 +1,104 @@
+.join-page {
+  padding: 100px 0;
+  text-align: center;
+  background-color: var(--white);
+}
+
+.join-header {
+  margin-bottom: 60px;
+}
+
+.careers-badge {
+  background-color: #EBF8FF;
+  color: #3182CE;
+  margin-bottom: 24px;
+}
+
+.join-main-title {
+  font-size: 32px;
+  font-weight: 800;
+  color: #003366;
+  margin-bottom: 12px;
+}
+
+.join-subtitle {
+  font-size: 15px;
+  color: #718096;
+}
+
+.join-banner {
+  background-color: #003366;
+  background-image: radial-gradient(circle at 10% 90%, rgba(255, 255, 255, 0.05) 0%, transparent 40%);
+  padding: 80px 40px;
+  border-radius: 40px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 40px 100px rgba(0, 0, 0, 0.2);
+}
+
+.banner-title {
+  font-size: 40px;
+  font-weight: 800;
+  color: var(--white);
+  margin-bottom: 24px;
+}
+
+.banner-text {
+  max-width: 650px;
+  margin: 0 auto 40px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.join-actions {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn-staff {
+  background-color: #FFA500;
+  color: var(--white);
+  padding: 16px 36px;
+  border-radius: 40px;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 10px 25px rgba(255, 165, 0, 0.3);
+  transition: all 0.3s ease;
+}
+
+.btn-staff:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 15px 30px rgba(255, 165, 0, 0.4);
+}
+
+.btn-talent {
+  background-color: transparent;
+  color: var(--white);
+  padding: 16px 36px;
+  border-radius: 40px;
+  font-weight: 700;
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn-talent:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: var(--white);
+}
+
+@media (max-width: 600px) {
+  .join-banner {
+    padding: 50px 25px;
+  }
+  .banner-title {
+    font-size: 28px;
+  }
+  .join-actions {
+    flex-direction: column;
+    gap: 15px;
+  }
+}

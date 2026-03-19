@@ -1,0 +1,100 @@
+.about-section {
+  padding: 100px 0;
+  max-width: 900px !important;
+  margin: 0 auto;
+}
+
+.about-header {
+  text-align: left;
+  margin-bottom: 50px;
+}
+
+.about-main-title {
+  font-size: 44px;
+  font-weight: 800;
+  color: #003366;
+  margin: 20px 0;
+}
+
+.about-intro {
+  font-size: 16px;
+  color: #4A5568;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.title-underline {
+  width: 80px;
+  height: 4px;
+  background-color: #FFA500;
+  margin-top: 30px;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.about-subtitle {
+  font-size: 24px;
+  font-weight: 800;
+  color: #003366;
+  margin-bottom: 25px;
+}
+
+.about-text {
+  font-size: 15px;
+  color: #4A5568;
+  line-height: 1.7;
+}
+
+.approach-pill {
+  background-color: #F7FAFC;
+  padding: 40px;
+  border-radius: 20px;
+  border-left: 5px solid #EBF4FF;
+}
+
+.approach-title {
+  font-size: 20px;
+  font-weight: 800;
+  color: #003366;
+  margin-bottom: 15px;
+}
+
+.why-choose-us {
+  margin-top: 20px;
+}
+
+.choices-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.choice-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.check-icon {
+  margin-top: 3px;
+  flex-shrink: 0;
+}
+
+.choice-text {
+  font-size: 15px;
+  color: #4A5568;
+  line-height: 1.4;
+}
+
+@media (max-width: 600px) {
+  .about-main-title {
+    font-size: 32px;
+  }
+  .approach-pill {
+    padding: 25px;
+  }
+}

@@ -1,0 +1,122 @@
+:root {
+  --primary-blue: #003366;
+  --primary-orange: #FFA500;
+  --secondary-blue: #0055A4;
+  --dark-blue: #002244;
+  --light-bg: #F8FAFC;
+  --white: #FFFFFF;
+  --text-dark: #1A202C;
+  --text-light: #4A5568;
+  --accent-blue: #EBF8FF;
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--white);
+  color: var(--text-dark);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.2s ease;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  transition: all 0.3s ease;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn-primary {
+  background-color: var(--primary-orange);
+  color: var(--white);
+}
+
+.btn-primary:hover {
+  background-color: #e69500;
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 1.5px solid var(--primary-blue);
+  color: var(--primary-blue);
+}
+
+.btn-secondary:hover {
+  background-color: var(--accent-blue);
+}
+
+.section-padding {
+  padding: 80px 0;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: 800;
+  color: var(--primary-blue);
+  margin-bottom: 20px;
+}
+
+.badge {
+  background-color: var(--accent-blue);
+  color: var(--secondary-blue);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+.split-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  padding: 80px 20px;
+  align-items: flex-start;
+}
+
+@media (max-width: 968px) {
+  .split-layout {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
