@@ -69,8 +69,8 @@ src/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/sanalashari03/healthcare-portal-dashboard.git
-   cd healthcare-portal-dashboard
+   git clone https://github.com/sanalashari03/Healthcare-Management-Professional-Portal-Dashboard.git
+   cd Healthcare-Management-Professional-Portal-Dashboard
    ```
 
 2. **Install dependencies**
@@ -95,7 +95,8 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 **Sana Lashari**
 - GitHub: [@sanalashari03](https://github.com/sanalashari03)
-- LinkedIn: [Your Profile](https://linkedin.com/in/your-profile)
+- Portfolio: [sanalashari.vercel.app](https://personal-portfolio-five-ivory-50.vercel.app/)
+- LinkedIn: [Sana Lashari](https://www.linkedin.com/in/sana-lashari-135999330/)
 
 ---
 
